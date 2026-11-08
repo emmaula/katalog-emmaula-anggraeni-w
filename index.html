@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f0e8" />
+    <meta name="description" content="Jelajahi koleksi sepatu dan boots Dr. Martens dengan siluet ikonik dan karakter yang tak lekang waktu." />
+    <title>Dr. Martens — Emmaula</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav">
+        <div class="brand">
+          <img src="image/logo.png" alt="" />
+          <span>Dr. Martens</span>
+        </div>
+        <nav>
+          <a href="#catalog">Katalog</a>
+          <a href="#featured">Pilihan</a>
+          <a href="#story">Tentang</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="cta" href="#catalog">Jelajahi koleksi <span aria-hidden="true">↗</span></a>
+          <button class="cart-trigger" id="cart-trigger" type="button" aria-label="Buka keranjang belanja">
+            Keranjang <span class="cart-count" id="cart-count" aria-live="polite">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="featured">
+        <div class="container hero-content">
+          <div class="hero-copy">
+            <p class="eyebrow">Ikon yang terus melangkah</p>
+            <h1>Langkah klasik.<br />Sikap tak biasa.</h1>
+            <p class="subtitle">
+              Temukan boots dan sepatu Dr. Martens dengan siluet legendaris,
+              detail khas, dan karakter yang selalu terasa personal.
+            </p>
+            <div class="hero-actions">
+              <a class="primary" href="#catalog">Lihat koleksi <span aria-hidden="true">↗</span></a>
+              <a class="secondary" href="#story">Cerita di balik gaya</a>
+            </div>
+            <ul class="hero-notes" aria-label="Ciri khas koleksi">
+              <li>Siluet ikonik</li>
+              <li>Detail penuh karakter</li>
+              <li>Dibuat untuk dikenakan</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="card showcase-card">
+              <img src="image/cherry-red.png" alt="Boots Dr. Martens kulit warna cherry red" />
+              <div class="card-badge"><span aria-hidden="true">✳</span> Ikon sepanjang masa</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catalog-section" id="catalog">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <p class="eyebrow">Katalog produk</p>
+              <h2>Produk pilihan kami</h2>
+            </div>
+            <div class="filters" aria-label="Filter katalog">
+              <button class="filter-btn active" data-filter="all">Semua</button>
+              <button class="filter-btn" data-filter="signature">Signature</button>
+              <button class="filter-btn" data-filter="limited">Limited</button>
+              <button class="filter-btn" data-filter="classic">Classic</button>
+            </div>
+          </div>
+
+          <div id="product-grid" class="product-grid">
+            <article class="product-card" data-category="signature">
+              <div class="card-media">
+                <span class="tag">Signature</span>
+                <img src="image/merry-jane.png" alt="MerryJane Signature" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.9 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>MerryJanes - Black Smooth</h3>
+                <p class="description">•Model klasik dengan dua strap gesper (double strap) bermotif lubang brogue ikonik dari Dr. Martens Indonesia.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 3.199.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="classic">
+              <div class="card-media">
+                <span class="tag">Classic</span>
+                <img src="image/sinclair.png" alt="Sinclair Classic" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.8 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>Sinclair Black Milled Nappa Leather.</h3>
+                <p class="description">•Menggunakan kulit Milled Nappa yang telah diproses agar menghasilkan tekstur kulit jeruk 
+                  (pebbled) yang sangat empuk, lentur, dan tidak sakit saat pertama kali dipakai (no break-in period).</p>
+                <div class="card-footer">
+                  <div class="price">Rp 4.700.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="limited">
+              <div class="card-media">
+                <span class="tag">Limited</span>
+                <img src="image/cherry-red.png" alt="Cherry Red Reserve" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>5.0 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>1460 Smooth Leather Boots - Cherry Red</h3>
+                <p class="description">•Menggunakan kulit Smooth Leather yang berkarakter halus, kaku, dan kokoh dengan hasil akhir semi-mengkilap (semi-glossy), 
+                  menampilkan warna merah marun tua (Cherry Red) berkesan vintage, serta dilengkapi jahitan benang kuning ikonik dan sol karet tebal berbantalan udara (AirWair).</p>
+                <div class="card-footer">
+                  <div class="price">Rp 3.899.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="signature">
+              <div class="card-media">
+                <span class="tag">Signature</span>
+                <img src="image/jorge-ii.png" alt="Jorge II Edition" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.9 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>Jorge II Leather Slingback Mules </h3>
+                <p class="description">•Menggunakan desain sandal selop terbuka di bagian belakang (slingback mules/clogs) bergaya santai,
+                   dilengkapi dua strap gesper gunmetal yang bisa disesuaikan, serta dirancang
+                   menggunakan bahan kulit lembut (Ambassador atau Buttersoft nubuck) yang langsung nyaman di kaki tanpa perlu proses break-in.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 3.500.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="classic">
+              <div class="card-media">
+                <span class="tag">Classic</span>
+                <img src="image/101.png" alt="Series 101" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.7 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>1460 Quad Retro Smooth Leather Platform Boots - Black.</h3>
+                <p class="description">•Menggunakan siluet bot klasik 8 lubang tali (8-eyelet) tanpa ritsleting samping yang dipadukan dengan sol tebal
+                   bermodel Quad platform setinggi 2 inci untuk memberikan tampilan yang tinggi dan tangguh, serta menggunakan bahan kulit Smooth Leather hitam yang kaku, kuat, dan memiliki 
+                   hasil akhir semi-mengkilap (semi-glossy).</p>
+                <div class="card-footer">
+                  <div class="price">Rp 4.399.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="limited">
+              <div class="card-media">
+                <span class="tag">Limited</span>
+                <img src="image/1460.png" alt="Collection 1460" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>5.0 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>1460 Smooth Leather 8-Eye Boots - Black</h3>
+                <p class="description">•Sepatu boots ankle legendaris dengan 8 lubang tali yang terbuat dari bahan Smooth Leather hitam kokoh bertekstur 
+                  mulus dan semi-mengkilap. Seri paling awal dan paling ikonis dari Docmart ini mempertahankan ciri khas jahitan benang kuning kontras, sol 
+                  bantalan udara AirWair™, serta pita penarik tumit kuning-hitam.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 3.799.000 </div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="signature">
+              <div class="card-media">
+                <span class="tag">Signature</span>
+                <img src="image/1490.png" alt="Vintage 1490" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.8 ★</span>
+                  <span>New</span>
+                </div>
+                <h3>1490 10-Eye Smooth Leather Boots (Black)</h3>
+                <p class="description">•Sepatu boots setinggi pertengahan betis dengan 10 lubang tali yang terbuat dari bahan Smooth Leather hitam 
+                  kokoh bertekstur mulus dan semi-mengkilap. Memiliki gaya militer yang tangguh dengan DNA ikonis Docmart berupa jahitan benang kuning kontras, 
+                  sol bantalan udara AirWair™ anti-selip, serta pita penarik tumit kuning-hitam.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 4.100.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="classic">
+              <div class="card-media">
+                <span class="tag">Classic</span>
+                <img src="image/2976.png" alt="No. 2976" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>4.7 ★</span>
+                  <span>New</span>
+                </div>
+                <h3> 2976 Bex Chelsea Boots</h3>
+                <p class="description">•Sepatu slip-on model Chelsea tanpa tali dengan sol Bex tebal dan tangguh setinggi 1,3 inci.
+                   Terbuat dari kulit Smooth hitam yang kokoh, dilengkapi panel elastis samping agar mudah dipakai, serta mempertahankan
+                    ciri khas jahitan kuning kontras dan pita tumit AirWair.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 4.100.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card" data-category="limited">
+              <div class="card-media">
+                <span class="tag">Limited</span>
+                <img src="image/3989.png" alt="No. 3989" />
+              </div>
+              <div class="card-body">
+                <div class="meta">
+                  <span>5.0 ★</span>
+                  <span>New</span>
+                </div>
+                <h3> 3989 Smooth Leather Brogues (Black)</h3>
+                <p class="description">•Sepatu model low-top oxford formal bergaya klasik dengan detail ukiran lubang-lubang dekoratif khas wingtip brogue. 
+                  Terbuat dari bahan kulit Smooth hitam yang kuat, menggunakan sol bantalan udara AirWair™, serta mempertahankan ciri khas DNA Docmart melalui
+                   jahitan benang kuning kontras di sekeliling solnya.</p>
+                <div class="card-footer">
+                  <div class="price">Rp 3.800.000</div>
+                  <button class="buy-btn" type="button">Beli</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section" id="story">
+        <div class="container story-box">
+          <div class="story-heading">
+            <p class="eyebrow">Lebih dari sekadar sepatu</p>
+            <h2>Cari gayamu sendiri.</h2>
+          </div>
+          <div class="story-copy">
+            <p>
+              Dari boots klasik sampai siluet yang lebih ekspresif, setiap pasangan
+              membawa karakter khas Dr. Martens—garis tegas, detail yang mudah dikenali,
+              dan ruang untuk gaya personalmu.
+            </p>
+            <a href="#catalog">Temukan pasanganmu <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </section>
+
+    <dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+      <div class="cart-header">
+        <div>
+          <p class="eyebrow">Pesananmu</p>
+          <h2 id="cart-title">Keranjang belanja</h2>
+        </div>
+        <button class="cart-close" id="cart-close" type="button" aria-label="Tutup keranjang">×</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <p class="cart-empty" id="cart-empty">Keranjang masih kosong. Pilih sepatu favoritmu untuk mulai memesan.</p>
+      <div class="cart-summary">
+        <span>Subtotal</span>
+        <strong id="cart-total">Rp 0</strong>
+      </div>
+      <p class="cart-note">Ongkir dan ketersediaan ukuran akan dikonfirmasi melalui WhatsApp.</p>
+      <a class="checkout-btn" id="checkout-btn" href="https://wa.me/6285859365744" target="_blank" rel="noopener noreferrer" aria-disabled="true">Pesan melalui WhatsApp <span aria-hidden="true">↗</span></a>
+      <p class="cart-status" id="cart-status" role="status" aria-live="polite"></p>
+    </dialog>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© Dr. Martens. <span>Gaya yang punya pendirian.</span></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
